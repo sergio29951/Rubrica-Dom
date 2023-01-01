@@ -1,0 +1,55 @@
+
+:root{
+    --red:rgb(204, 0, 0);
+    --blu:rgb(59, 76, 202);
+    --yellow:rgb(255, 222, 0);
+}
+
+body{
+
+    background-color: var(--blu);
+    color: var(--yellow);
+}
+
+/* BOTTONE MOSTRA RUBRICA */
+
+.btn-custom{
+
+    background-color: var(--blu);
+    border: 2px solid var(--red);
+    height: 100px;
+    width: 100%;
+    color: var(--yellow);
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.4s;
+}
+
+
+.btn-custom:hover{
+
+    background-color: var(--yellow);
+    border: 2px solid var(--red);
+    color: var(--blu);
+}
+
+/* CARD CONTATTI */
+
+.card-custom{
+
+    height: 100px;
+    border: 3px solid var(--red);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+/* ICONA */
+
+.icon{
+    
+    cursor: pointer;
+}

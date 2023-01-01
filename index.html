@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rubrica - 1</title>
+    <link rel="shortcut icon" href="./rubrica.png" type="image/x-icon">
+    
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  
+    <!-- CSS CUSTOM -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+  <body>
+
+    <h1 class="text-center">Rubrica </h1>
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
+                <button class="btn btn-custom" id="showContactsBtn">Mostra Rubrica</button>
+            </div>
+
+            <div class="col-12 col-lg-6 d-flex justify-content-center flex-column">
+           
+                <div class="input-group mb-3">
+                    
+                    <input id="nameInput" type="text" class="form-control" placeholder="Nome Contatto" aria-label="Username" aria-describedby="basic-addon1">
+
+                </div>
+
+                <div class="input-group mb-3">
+                    
+                    <input id="numberInput" type="number" class="form-control" placeholder="Numero Contatto" aria-label="Username" aria-describedby="basic-addon1">
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-lg-3">
+
+                <button class="btn btn-custom my-3" id = "addContactBtn">Aggiungi Contatto</button>
+
+                <button class="btn btn-custom my-3" id = "removeContactBtn">Rimuovi Contatto</button>
+
+                <button class="btn btn-custom my-3" id="searchContactBtn">Cerca Contatto</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="container">
+        <div class="row my-5 justify-content-center" id = "cardsWrapper">
+
+
+            <div class="col-12 col-lg-8 my-3">
+
+                <div class="card-custom"> 
+
+                    <p class="lead">Nome Contatto</p>
+
+                    <p class="lead">Numero Contatto</p>
+
+                    <i class="fa-solid fa-trash-can fa-2x icon"></i>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
+    <!-- CUSTOM JS -->
+    <script src="./main.js"></script>
+</body>
+</html>
